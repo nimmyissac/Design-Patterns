@@ -1,7 +1,8 @@
 /**
  * EntryPoint
  */
-public class EntryPoint {
+
+public class AdapterPattern {
     public static void main(String[] args) {
         OldCoffeeMachine oldMachine = new OldCoffeeMachine();
         CoffeeTouchscreenAdapter adapter = new CoffeeTouchscreenAdapter();
